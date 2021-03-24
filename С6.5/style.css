@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 0.5rem;
+  background-color: #5b48d4;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section {
+  width: 90%;
+  max-width: 46rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+button:focus {
+  outline: none;
+}
